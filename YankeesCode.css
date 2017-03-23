@@ -1,0 +1,86 @@
+body {
+  padding-bottom: 30px;
+
+}
+
+h4 {
+  color:#b724ad;
+}
+
+#date {
+text-align:left;
+font-size:20px;
+color:gray;
+}
+
+#address {
+text-align:left;
+font-size:17px;
+color:black;
+}
+
+#Game {
+color:black;
+}
+
+p {
+  color:red;
+}
+
+.text {
+  color: red;
+  line-height: 200%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 300px;
+  margin-left: 60px;
+}
+
+
+img {
+   width: 50%;
+   height: 50%;
+}
+
+#score {
+  transition:3s;
+}
+
+#score:hover {
+  color: darkblue;
+  transition:3s;
+  font-size: 25px;
+}
+
+button:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+#homebutton {
+  font-size: 75px;
+  background-color: gray;
+  margin-top: 25px;
+}
+
+#tablebutton {
+  font-size: 75px;
+  background-color: gray;
+  margin-top: 25px;
+}
+
+
+.dropdown-menu:li {
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+#preview {
+margin-left: 50px;
+margin-top: 50px;
+
+}

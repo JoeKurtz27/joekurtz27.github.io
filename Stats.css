@@ -1,0 +1,44 @@
+body {
+padding-bottom: 25px;
+
+}
+
+h1 {
+  color: #012d68;
+}
+
+#Total {
+  font-size: 30px;
+}
+
+#Totals {
+  color: brown;
+}
+
+.statsmarch12th2017 {
+color: darkblue;
+font-weight: bold;
+}
+
+
+#categories {
+  color: red;
+}
+
+div {
+  background-color: gray;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+#homebutton {
+  margin-top: 25px;
+  text-align: center;
+}
+
+#datebutton {
+  margin-top: 25px;
+  text-align: center;
+}

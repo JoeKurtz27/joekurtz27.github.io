@@ -1,0 +1,52 @@
+body {
+padding-bottom: 25px;
+}
+
+#headingline {
+  color: darkblue;
+  font-size: 35px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.words {
+  font-size: 18px;
+  margin-left: 50px;
+  margin-right: 200px;
+  color: #323e51;
+  line-height: 200%;
+}
+
+#babybombers {
+  margin-top: 30px;
+}
+
+#title {
+margin-left: 50px;
+}
+
+
+button:hover {
+  background-color: yellow;
+}
+
+#goyankees {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+img {
+width: 35%;
+margin-left: 50px;
+}
+
+
+#nextpage {
+  margin-top: 25px;
+  text-align: center;
+}
+
+#yankeeswin {
+  display:none;
+}

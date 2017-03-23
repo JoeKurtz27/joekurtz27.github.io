@@ -1,0 +1,75 @@
+<html>
+<head>
+<link href="ProspectWatch.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+</head>
+
+
+<body>
+<h2 class="head"id="title"> <b>Prospect Watch 2017 </b> </h2>
+<p class="head" id="toptenprospects"> Yankees Top Ten Prospects </p>
+<div class="head"> (As of March 23, 2017) </div>
+
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="http://cdn.riveraveblues.com/wp-content/uploads/2017/03/Gleyber-Torres-1.jpg?x77199" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="Yankees Number One Propsect (3rd in the MLB): Gleyber Torres. Traded to the Yankees as their biggest prize in the Aroldis Chapman deal in July. Torres finished the year in the Arizona Fall League, where he became the youngest MVP and batting champion (.403) in the circuit's 25 seasons.">
+  <img class="mySlides" src="http://assets.nydailynews.com/polopoly_fs/1.2739065.1470348246!/img/httpImage/image.jpg_gen/derivatives/article_750/clint-frazier-plays-lehigh-valley.jpg" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="Yankees Number Two Propsect (24th in the MLB): Clint Frazier. Few prospects can match Frazier's lightning bat speed and raw power. He's still just 22 and has time to make further adjustments that could help him hit for a solid average with 30 homers per season. ">
+  <img class="mySlides" src="http://cdn.riveraveblues.com/wp-content/uploads/2016/06/Blake-Rutherford2.jpg?x77199" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="Yankees Number Three Propsect (37th in the MLB): Blake Rutherford. Rutherford is a rare talent who has the chance to hit for plus average and power. He has a smooth left-handed stroke with plenty of bat speed, recognizes pitches well, shows signs of patience and uses the entire field. ">
+  <img class="mySlides" src="http://media.nj.com/yankees_main/photo/aaron-judge-f8e251b864669644.jpg" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="Yankees Number Four Propsect (45th in the MLB): Aaron Judge. ">
+  <img class="mySlides" src="http://www.27outsbaseball.com/wp-content/uploads/2015/06/Jorge-Mateo-MiLB-01.jpg" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="Yankees Number Five Propsect (47th in the MLB): Jorge Mateo. ">
+  <img class="mySlides" src="http://cdn.riveraveblues.com/wp-content/uploads/2015/11/James-Kaprielian.jpg?x77199" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="Yankees Number Six Propsect (58th in the MLB): James Kaprielian. ">
+  <img class="mySlides" src="http://mediadownloads.mlb.com/mlbam/2016/03/03/images/mlbf_544032983_th_45.jpg" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="Yankees Number Seven Propsect (79th in the MLB): Justus Sheffield. ">
+  <img class="mySlides" src="http://bronxbaseballdaily.com/wp-content/uploads/2016/02/ChanceAdams.jpg" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="Yankees Number Eight Propsect (Unranked): Chance Adams. ">
+  <img class="mySlides" src="https://pinstripedprospects.com/2014/wp-content/uploads/2015/11/DustinFowlerAFLBatting.jpg" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="Yankees Number Nine Propsect (Unranked): Dustin Fowler. ">
+  <img class="mySlides" src="https://pinstripedprospects.com/2014/wp-content/uploads/2015/09/Miguel_Andujar_ASG-8-e1447679107364.jpg" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="Yankees Number Ten Propsect (Unranked): Miguel Andujar. ">
+
+
+
+
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+  
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+<a href="http://m.mlb.com/prospects/2017"target="_blank" class="links"/> MLB Prospect List (as per MLB.com)
+<br>
+<a href="http://m.mlb.com/prospects/2017?list=nyy"target="_blank" class="links"/> Yankees Prospect List (as per MLB.com)
+<br><br>
+<a href="HomePage.html"><button class=".head" id="homebutton" style="margin-left:20px;">Home</button></a>
+<br><br><br><br>
+</body>
+
+</html>

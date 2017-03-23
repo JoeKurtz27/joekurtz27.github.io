@@ -1,0 +1,38 @@
+body {
+  padding-bottom:40px;
+  background-size:auto 100%;
+  background: linear-gradient(gray,blue,white)
+
+}
+
+#toptenprospects {
+  color: darkblue;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+img {
+  width: 30px;
+  height: 500px;
+}
+
+.head {
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+button {
+  font-size: 75px;
+  margin-top: 25px;
+  color: red;
+}
+
+.links {
+  margin-left: 20px;
+  color: red;
+}
